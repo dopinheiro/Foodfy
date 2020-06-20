@@ -1,0 +1,29 @@
+@import  "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header,
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #eeeeee;
+    color: #999999;
+    text-align: center;
+    padding: 26px;
+}
