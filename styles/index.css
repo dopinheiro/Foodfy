@@ -21,6 +21,7 @@
     display: flex;
     width: 100%;
     padding-right: 30vw;
+    margin-bottom: 50px;
     background-color: #FBDFDB;
     border-radius: 30px;
     position: relative;
@@ -43,8 +44,15 @@
 }
 
 .wrapper h2 {
-    margin-top: 50px;
+    color: #111;
+}
+.wrapper h3 {
+    color: #111;
+}
 
+.wrapper p {
+    margin: 10px 0 20px 0;
+    color: #444;
 }
 
 .cards {
@@ -66,4 +74,28 @@
 
 .card-info p {
     color: #777777;
+}
+
+.modal {
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal-box {
+    background: #fff;
+    width: 50vw;
+    height: 50vh;
+    margin: 25vh auto;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.modal-box .card img {
+    height: 30vh;
+    object-fit: cover;
 }
